@@ -1434,6 +1434,9 @@ table td:has( .inprogress){
     box-shadow: none;
     border: 1px solid var(--yellow-color);
 }
+.navbar {
+    padding: 0;
+}
 .navbar-toggler{
     border: none;
     width: 32px;
@@ -2083,8 +2086,7 @@ table td:has( .inprogress){
     footer h3{
         font-size: 20px;
     }
-    .payments img,
-    .socials img{
+    .payments img{
         margin-right: 10px;
         width: 30px;
     }
@@ -2602,6 +2604,9 @@ input[type="tel"]{
         .outer_sign_container{
             padding-inline: 12px;
             padding-block: 70px;
+        }
+        .navbar-toggler {
+            padding: 0;
         }
         form h1{
             font-size: 24px;
