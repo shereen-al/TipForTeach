@@ -1822,8 +1822,7 @@ table td:has( .inprogress){
     footer h3{
         font-size: 20px;
     }
-    .payments img,
-    .socials img{
+    .payments img{
         margin-right: 10px;
         width: 30px;
     }
