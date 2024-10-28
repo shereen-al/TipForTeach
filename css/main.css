@@ -2037,13 +2037,13 @@ table td:has( .inprogress){
             width: fit-content;
         }
     }
-    .navbar-collapse .log-btn{
-        position: absolute;
+    .navbar-collapse .log-btn {
+        position: relative;
         left: 50%;
         transform: translateX(-50%);
-        width: 50%;
-        bottom: 10vh;
         text-align: center;
+        margin-top: 12px;
+        width: fit-content;
     }
     .navbar-collapse{
         background-color: var(--white-color);
@@ -2093,6 +2093,7 @@ table td:has( .inprogress){
     .navbar-nav{
         position: relative;
         z-index: 100;
+        margin-top: 7vh;
     }
     .teacher h5, .teacher a{
         font-size: 12px;

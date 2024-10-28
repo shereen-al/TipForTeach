@@ -1774,13 +1774,6 @@ table td:has( .inprogress){
             width: fit-content;
         }
     }
-    .navbar-collapse .log-btn{
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 50%;
-        bottom: 10vh;
-    }
     .navbar-collapse{
         background-color: var(--white-color);
         z-index: 1000;
@@ -1792,7 +1785,9 @@ table td:has( .inprogress){
         height: 100vh;
     }
     .navbar-nav{
-        margin-top: 20vh;
+        margin-top: 7vh;
+        position: relative;
+        z-index: 100;
     }
     .page-nav .nav-link{
         margin: auto;
@@ -1809,6 +1804,14 @@ table td:has( .inprogress){
         right: 40px;
         top: 35px;
         cursor: pointer;
+    }
+    .navbar-collapse .log-btn {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        margin-top: 12px;
+        width: fit-content;
     }
     footer .row > div{
         margin-bottom: 70px;
