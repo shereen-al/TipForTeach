@@ -183,6 +183,14 @@ section.commitment{
     bottom: -3px;
     left: 0;
 }
+.coming_soon_bar{
+    width: 100%;
+    padding-block: 12px;
+    background-color: var(--yellow-color);
+    display: block;
+    color: var(--text-color);
+    font-weight: 600;
+}
 /* feature */
 .features{
     padding-top: 120px;
