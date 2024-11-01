@@ -1815,6 +1815,116 @@ table td:has( .inprogress){
     padding-inline: 92px;
 }
 /* End OTP Verifcation */
+
+
+.terms, .privacy{
+    padding-block: 50px;
+}
+.terms h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--green-color);
+}
+.terms span{
+    display: block;
+    margin-block: 20px;
+    font-weight: 700;
+}
+.terms p, .terms span, .terms ol li{
+    font-size: 16px;
+    color: var(--text-alt-color);
+}
+.terms p{
+    margin-bottom: 20px;
+}
+.terms ol{
+    margin-bottom: 40px;
+}
+.terms p{
+}
+ol li{
+    list-style: unset;
+}
+.terms-btns{
+    margin-top: 50px;
+}
+.terms-btns button{
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+.terms-btns .not-agree-btn{
+    background: transparent;
+    border: 1px solid #4948488c;
+    color: var(--text-alt-color);
+} 
+.terms .agree-btn{
+    background: var(--yellow-color);
+    color: var(--text-color);
+    border: none;
+    margin-left: 20px;
+}
+.form-check .form-check-input.privacy-checkbox{
+    border-radius: unset;
+}
+.privacy-link{
+    color: var(--green-color);
+    text-decoration: underline;
+}
+.privacy-link:hover{
+    color: var(--green-color);
+}
+.privacy-link + span{
+    font-weight: 700;
+}
+.privacy h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--green-color);
+    margin-bottom: 0;
+}
+.privacy h1 + span{
+    color: var(--text-alt-color);
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+.privacy-content{
+    margin-top: 60px;
+}
+.privacy-big-text{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.privacy-summary{
+    padding-right: 60px;
+}
+.privacy h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.privacy-summary p:not(.privacy-big-text), .privacy-summary ol li{
+    color: var(--text-alt-color);
+    margin-bottom: 32px;
+}
+.privacy-summary ol li strong{
+    color: var(--text-color);
+}
+.privacy-headings ol li a{
+    color: var(--text-color);
+    text-decoration: underline;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+.privacy-headings{
+    max-width: 260px;
+}
 /* Break Points (( Media Quieries)) */
 @media (max-width:767px) {
     .inform, .save-payment, .return, .earnings span, .text-14, .tip-total, .after-topup div span{
@@ -2011,6 +2121,9 @@ table td:has( .inprogress){
         margin-block: 18px;
     }
     /* End OTP Responsive Css */
+    .form-check-label.form-check-label-privacy, .privacy-link{
+        color: var(--white-color);
+    }
 }
 @media (min-width:539px) and (max-width:991px) {
     .chart-dates .bar {
@@ -2507,6 +2620,7 @@ input[type="tel"]{
 .requirement-list li.valid span {
     color: #999;
 }
+
 @media (min-width: 768px){
     .sign_container{
         background-color: #fff;
@@ -2516,7 +2630,7 @@ input[type="tel"]{
         overflow: hidden;
         width: 870px;
         max-width: 100%;
-        min-height: 600px;
+        min-height: 650px;
     }
     .form-container{
         position: absolute;
